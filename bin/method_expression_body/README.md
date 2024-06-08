@@ -7,7 +7,7 @@
   class Computer {
     void startup() => print('computer is starting');
 
-    void shutdown() => print('computed is shutting down');
+    void shutdown() => print('computer is shutting down');
 
     String getOperatingSystem() => 'Linux';
   }
