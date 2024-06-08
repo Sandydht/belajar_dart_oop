@@ -2,7 +2,7 @@
 * Untuk membuat Class, kita bisa menggunakan kata kunci ``` class ```.
 * Penamaan Class bisa menggunakan format PascalCase.
 * Contoh Kode: Class
-  ```
+  ```dart
   class Person { 
 
   }
@@ -12,7 +12,7 @@
 * Object adalah hasil instansiasi dari sebuah Class.
 * Untuk membuat Object kita bisa menggunakan nama Class lalu diikuti dengan kurung ().
 * Contoh kode: Membuat Object
-  ```
+  ```dart
   var person1 = Person();
   Person person2 = Person();
   ```
@@ -23,7 +23,7 @@
 * Membuat Field sama seperti membuat Variabel, namun ditempatkan di block Class.
 * Field wajib dimasukkan nilainya, kecuali Field yang nullable.
 * Contoh kode: Field
-  ```
+  ```dart
   class Person {
     String name = 'Guest';
     String? address;
@@ -37,7 +37,7 @@
 * Untuk memanipulasi data field, sama seperti cara pada variable.
 * Untuk mengakses field, kita butuh kata kunci .(titik) setelah nama Object dan diikuti nama field nya.
 * Contoh kode: Manipulasi Field
-  ```
+  ```dart
   var person = Person();
   person.name = 'Sandy Dwi';
   person.address = 'Jawa Tengah';
@@ -55,7 +55,7 @@
 * Sama seperti function biasanya, kita juga bisa menambahkan return value, parameter di Method yang ada di dalam block Class.
 * Untuk mengakses Method tersebut, kita bisa menggunakan tanda titik(.) dan diikuti dengan nama Method-nya. Sama seperti mengakses Field.
 * Contoh kode: Method
-  ```
+  ```dart
   class Person {
     String name = 'Guest';
     String? address;
@@ -67,7 +67,7 @@
   }
   ```
 * Contoh kode: Memanggil Method
-  ```
+  ```dart
   var person = Person();
   person.name = 'Sandy Dwi';
 
@@ -81,7 +81,7 @@
 ## Membuat Extension Method
 * Membuat Extension Method hampir mirip dengan membuat Class, namun kita perlu menggunakan kata kunci ``` extension ``` diikuti nama extension lalu diikuti kata kunci ``` on ``` dan nama Class yang ingin kita tambahkan extension method-nya.
 * Contoh kode: Extension Method
-  ```
+  ```dart
   extension GoodByeOnPerson on Person {
     void sayGoodBye(String paramName) {
       print('Good bye $paramName, from $name');
