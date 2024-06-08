@@ -3,6 +3,8 @@
 * Dart memperbolehkan kita membuat method dengan nama operator.
 
 ## Daftar Operator
+| Daftar Operator |
+| --------------- |
 | < | + | | | >>> |
 | > | / | ^ | [] |
 | <= | ~/ | & | []= |
