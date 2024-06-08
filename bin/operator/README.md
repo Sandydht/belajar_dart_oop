@@ -1,15 +1,7 @@
 # Operator
 * Operator adalah method dengan nama yang spesial.
 * Dart memperbolehkan kita membuat method dengan nama operator.
-
-## Daftar Operator
-| Daftar Operator |
-| --- | --- | --- | --- |
-| < | + | | | >>> |
-| > | / | ^ | [] |
-| <= | ~/ | & | []= |
-| >= | * | << | ~ |
-| - | % | >> | == |
+* Anda dapat melihat daftar operator melalui [link](https://www.notion.so/Daftar-Operator-b8549d3cf4ea427b995b5994d34dfbf8?pvs=4) ini.
 
 ## Membuat Operator
 * Untuk membuat operator, kita bisa melakukannya dengan cara seperti saat membuat method, namun nama method diganti menjadi kata kunci ``` operator ``` diikuti dengan operator-nya.
