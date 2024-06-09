@@ -26,3 +26,16 @@
       ..email = 'sandy@example.com';
   }
   ```
+* Contoh kode: Nullable Cascade Notation
+  ```dart
+  User? createUser() {
+    return null;
+  }
+
+  void main() {
+    User? user = createUser()
+      ?..username = 'sandy'
+      ..name = 'Sandy Dwi'
+      ..email = 'sandy@example.com';
+  }
+  ```
