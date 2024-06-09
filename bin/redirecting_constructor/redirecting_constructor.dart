@@ -8,6 +8,8 @@ class Person {
   Person.withName(String name) : this(name, '');
 
   Person.withAddress(String address) : this('', address);
+
+  Person.fromKendal() : this.withAddress('Kendal');
 }
 
 void main() {
@@ -20,4 +22,7 @@ void main() {
 
   var person3 = Person.withAddress('Central Java');
   print(person3.address);
+
+  var person4 = Person.fromKendal();
+  print(person4.address);
 }
